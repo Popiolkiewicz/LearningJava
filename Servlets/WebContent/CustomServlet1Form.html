@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+	<!-- Creating form - declaring method to be used - declaring servlet path-->
+	<form method="post" action="customServlet1">
+		<!-- creating custom fields - given names are parameters' names -->
+		User name: <input name="userName" />
+		<!-- Adding some more parameters -->
+		Full name: <input name="fullName" />
+		<br> 
+		Profession: 
+		<input type="radio" name="prof" value="Developer"> Developer 
+		<input type="radio" name="prof" value="Developer"> Architect
+		<select name="location" multiple size=3 >
+			<option value="here">here</option>
+			<option value="there">there</option>
+			<option value="far">far</option>
+			<option value="near">near</option>
+			<option value="nowhere">nowhere</option>
+		</select>
+		<input type="submit" />
+	</form>
+</body>
+</html>
