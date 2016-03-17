@@ -17,7 +17,7 @@ public interface ListElementsRemote {
 
 	void addElement(int e);
 
-	void removeElement(int e);
+	void removeElement(Integer e);
 
 	List<Integer> getElements();
 }

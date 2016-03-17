@@ -16,7 +16,7 @@ public class ListElements implements ListElementsRemote {
 	}
 
 	@Override
-	public void removeElement(int e) {
+	public void removeElement(Integer e) {
 		values.remove(e);
 	}
 
